@@ -1,0 +1,29 @@
+.projects {
+    background: $primary;
+    color: $light;
+    .project {
+      position: relative;
+      top: -100px;
+      .img-container {
+        background: $light;
+        box-shadow: 0 0 10px $gray;
+        border-radius: 50%;
+        height: 200px;
+        overflow: hidden;
+        width: 200px;
+      }
+      .img-container img {
+        width: 150px;
+      }
+      i {
+        padding: 5px 5px;
+        border: 2px solid white;
+        border-radius: 50%;
+      }
+    }
+    @media (max-width: 991px) {
+      .project {
+        top: 0;
+      }
+    }
+  }

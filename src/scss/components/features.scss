@@ -1,0 +1,25 @@
+.features {
+  padding: 70px 5px 0 5px;
+  .feature {
+    height: 348px;
+    transition: all .6s;
+    &:hover {
+      background-color: $l-secondary;
+      transform: translate(10px , -10px);
+     
+    }
+    &:hover p {
+      
+    }
+    img {
+      height: 100px;
+    }
+    p:last-of-type {
+      font-size: 14px;
+      color: $gray;
+    }
+  }
+  .feature2 {
+    box-shadow: 3px 3px 5px $gray, -3px 0 5px $gray;
+  }
+}

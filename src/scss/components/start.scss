@@ -1,0 +1,33 @@
+.start {
+    padding: 0px 0 80px 0;
+    .container {
+      padding: 0 119px;
+      @media (max-width: 1200px) {
+        padding: 0 54px;
+        text-align: right !important;
+      }
+    }
+    .row {
+      background: $primary;
+      padding: 15px 0;
+      border-radius: 20px;
+    }
+    .center {
+      text-align: right;
+      color: $light;
+    }
+    img {
+      position: relative;
+      left: 50px;
+    }
+    button {
+      color: $primary;
+      background: $light;
+      border-radius: 20px;
+      padding: 8px 0;
+      width: 194px;
+      font-size: 18px;
+      box-shadow: 0 0 10px rgb(99, 90, 90);
+    }
+   
+  }

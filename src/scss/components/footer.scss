@@ -1,0 +1,55 @@
+footer {
+    background: $l-gray;
+    padding: 110px 0px 29px 0px;
+    h2 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 14px;
+      color: $gray;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        a {
+          color: $gray;
+        }
+      }
+    }
+    text-align: right;
+    .social {
+      background: $primary;
+      color: $light;
+      padding: 7px 10px;
+      border-radius: 50%;
+    }
+    form {
+      input {
+        background: $light;
+        border: 1px solid $gray;
+        border-radius: 20px !important;
+  
+        padding: 23px 10px !important;
+      }
+      input:focus {
+        outline: 1px solid $primary !important;
+        border: 1px solid $primary !important;
+        border-radius: 20px !important;
+        box-shadow: 0 0 0 0.2rem $primary !important ;
+      }
+      button {
+        background: $primary;
+        color: $light;
+        border-radius: 20px;
+        padding: 8px 0;
+        width: 194px;
+        font-size: 18px;
+        box-shadow: 0 0 3px $gray;
+        border: none;
+      }
+    }
+    .footer-text {
+      border-top: 1px solid $gray;
+    }
+  }

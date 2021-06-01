@@ -1,0 +1,62 @@
+.describtion {
+  padding: 0 0 60px 0;
+  position: relative;
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .bg-content {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: url(../../assets/images/bg-rocket.png);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+  }
+  .row {
+    margin-top: 112px;
+  }
+  .right {
+    text-align: right;
+    p:first-of-type {
+      font-size: 27px;
+    }
+    p:nth-of-type(2) {
+      font-size: 23px;
+    }
+    p:nth-of-type(2) {
+      color: $primary;
+    }
+    p:last-of-type,
+    ul li {
+      color: $gray;
+      font-size: 14px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0 4px;
+    }
+    ul li:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      margin: 0 2px;
+      background: $gray;
+      display: inline-block;
+      border-radius: 50%;
+    }
+    .btn-container {
+      text-align: left;
+      button {
+        background: $primary;
+        color: $light;
+        border-radius: 20px;
+        padding: 8px 0;
+        width: 194px;
+        font-size: 18px;
+        box-shadow: 0 0 10px rgb(99, 90, 90);
+      }
+    }
+  }
+}

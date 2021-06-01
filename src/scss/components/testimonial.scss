@@ -1,0 +1,49 @@
+.testimonial {
+    background: linear-gradient(to bottom, $primary 50%, $light 50%);
+    .container {
+      position: relative;
+    }
+    .dotted {
+      position: absolute;
+      top: 30px;
+      right: -40px;
+    }
+    .container {
+      position: relative;
+      top: -70px;
+      @media (max-width: 991px) {
+        position: relative;
+        top: 60px;
+      }
+    }
+    .heading {
+      font-size: 38px;
+      color: $light;
+      margin-bottom: 30px;
+    }
+    .row {
+      padding: 0 100px;
+      @media (max-width: 500px) {
+      padding: 0 50px ;
+      }
+    }
+    .test {
+      background: $light;
+      min-height: 300px;
+      border-right: 2px solid $gray;
+      box-shadow: 0 3px 3px $gray;
+      padding: 0 20px;
+      .img-container {
+      }
+      .img-container img {
+        width: 80px;
+        height: 80px;
+      }
+      p:first-of-type {
+        font-size: 35px;
+      }
+      p:last-of-type {
+        color: $gray;
+      }
+    }
+  }
