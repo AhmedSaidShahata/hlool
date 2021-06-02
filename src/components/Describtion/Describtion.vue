@@ -49,7 +49,7 @@
               </li>
             </ul>
 
-            <div class="d-felx mt-5 btn-container">
+            <div class="d-felx text-center text-sm-left mt-5 btn-container">
               <button class="btn text-center mx-2 font-weight-bold">
                 تجربة المنصة
               </button>

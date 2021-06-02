@@ -20,7 +20,7 @@
 
             <div class="container">
               <div class="accordion">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled p-0">
                   <li class="open">
                     <div class="question mt-4" ref="question">
                       <div

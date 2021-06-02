@@ -5,7 +5,7 @@
         <div
           class="col-md-6 d-flex flex-column justify-content-center align-content-center align-items-center "
         >
-          <div class="right">
+          <div class="right mb-3">
             <h2 class="mb-4">
               3 خطوات تفصلك عن
               <br />
