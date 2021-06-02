@@ -1,7 +1,7 @@
 module.exports = {
   lintOnSave:true,
   runtimeCompiler:true,
-  publicPath:'/hlool',
+  publicPath:'/hlool/',
   css: {
     loaderOptions: {
       scss: {
