@@ -1,7 +1,7 @@
 module.exports = {
   lintOnSave:true,
   runtimeCompiler:true,
-  publicPath:'/hlool/',
+  publicPath: process.env.NODE_ENV === "production"?"/hlool/": "/",
   css: {
     loaderOptions: {
       scss: {
