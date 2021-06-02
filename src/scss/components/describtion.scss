@@ -8,10 +8,15 @@
     top: 0;
     right: 0;
     position: absolute;
+    z-index: -1;
     background: url(../../assets/images/bg-rocket.png);
     background-size: cover;
     width: 50%;
     height: 100%;
+  }
+  .rocket{
+    position: relative;
+    z-index: 2;
   }
   .row {
     margin-top: 112px;
