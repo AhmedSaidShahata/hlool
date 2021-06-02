@@ -84,6 +84,9 @@
     }
     .accordion li.open .answer {
       max-height: 170px;
+      @media(max-width:500px) {
+        max-height: 190px;
+      }
     }
     .accordion li.open .question,
     .accordion li.open .answer {
