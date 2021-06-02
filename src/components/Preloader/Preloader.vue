@@ -29,21 +29,15 @@ export default {
       let preloader = this.$refs.preloader;
       let opacityValue = 1;
       let opacityPrloader;
-      
       window.onload = ()=>{
-         setTimeout(() => {
             opacityPrloader = setInterval(() => {
             preloader.style.opacity = opacityValue;
             opacityValue -= 0.04;
-          }, 50);
-            
+          }, 50);      
             setTimeout(() => {
               this.showPreloader = false;
               clearTimeout(opacityPrloader);
-          }, 2000);
-        }, 2000);
-
-      
+          }, 1000);
       }
  
     },
