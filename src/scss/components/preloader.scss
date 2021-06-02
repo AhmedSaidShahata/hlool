@@ -5,11 +5,9 @@
     justify-content: center;
     position: fixed;
     width: 100%;
-    z-index: 9;
+    z-index: 9999;
     top: 0;
     background-color: $light;
-
-    
 }
 .bar{  
     position: absolute;

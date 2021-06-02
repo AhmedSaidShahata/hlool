@@ -16,7 +16,7 @@
 export default {
   name: "Preloader",
     mounted() {
-    this.Preloader();
+
     this.hidePreloder();
   },
   data: () => {
@@ -28,21 +28,26 @@ export default {
     hidePreloder() {
       let preloader = this.$refs.preloader;
       let opacityValue = 1;
-      setTimeout(() => {
-        let opacityPrloader = setInterval(() => {
-          preloader.style.opacity = opacityValue;
-          opacityValue -= 0.04;
+      let opacityPrloader;
+      
+      window.onload = ()=>{
+         setTimeout(() => {
+            opacityPrloader = setInterval(() => {
+            preloader.style.opacity = opacityValue;
+            opacityValue -= 0.04;
+          }, 50);
+            
+            setTimeout(() => {
+              this.showPreloader = false;
+              clearTimeout(opacityPrloader);
+          }, 2000);
+        }, 2000);
+
+      
+      }
  
-        }, 50);
-        setTimeout(() => {
-          clearTimeout(opacityPrloader);
-          this.showPreloader = false;
-        }, 1000);
-      }, 3000);
     },
-    Preloader() {
-  
-    },
+   
   },
 };
 </script>

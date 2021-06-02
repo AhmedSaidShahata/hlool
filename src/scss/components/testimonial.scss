@@ -31,13 +31,15 @@
       background: $light;
       min-height: 300px;
       border-right: 2px solid $gray;
-      box-shadow: 0 3px 3px $gray;
+      box-shadow: 0px 1px 3px rgb(139, 132, 132);
+
+      border: 1px solid $gray;
       padding: 0 20px;
       .img-container {
-      }
-      .img-container img {
-        width: 80px;
-        height: 80px;
+        img{
+          width: 80px;
+          height: 80px;
+        }
       }
       p:first-of-type {
         font-size: 35px;
